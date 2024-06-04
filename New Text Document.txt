@@ -1,0 +1,39 @@
+
+
+a=input("enter a your firstname: ")
+print (a)
+b=input("enter a your lasttname: ")
+print (b)
+age =int(input("سن خود را وارد کنید: "))
+
+for i in range(1):
+
+    if age >= 18:
+
+        print("خوش آمدید، " + a + " " + b)
+
+        break
+
+
+    else:
+       age < 18
+
+    print("اجازه ورود ندارید")
+
+    rest = 18 - age
+
+    print("شما " + str(rest) + " سال تا 18 سالگی فاصله دارید")
+
+
+
+
+     
+
+enter a your firstname: ali
+ali
+enter a your lasttname: reza
+reza
+سن خود را وارد کنید: 17
+اجازه ورود ندارید
+شما 1 سال تا 18 سالگی فاصله دارید
+
